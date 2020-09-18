@@ -9,6 +9,7 @@ import IntroduionImagem from "../../assets/svg/notre-dame.svg"
 import WindowPC from "../../assets/svg/monitor-window.svg"
 import LoadWindow from "../../assets/svg/monitor-loading-progress.svg";
 import CardWindow from "../../assets/svg/monitor-cash-credit-card.svg";
+import SuporteWoman from "../../assets/svg/customer-service-woman.svg";
 import GirlBackground from "../../assets/fotos/citacao.jpg";
 
 const Home = () => {
@@ -41,20 +42,20 @@ const Home = () => {
       </section>
       <section className="girl-background">
         <img src={GirlBackground} />
-        {/* <div className="citacao">
-          <i className="text">“ Com o little invest eu pude ter
-          certeza que o meu dinheiro estava
-        rendendo sem ter que perder tempo do meu dia pensando onde investir.”</i>
-          <p className="text">Gabriela Marques</p>
-        </div> */}
       </section>
-      <section className="create-account">
-        <h1> Crie sua conta</h1>
-        <div className="div-inputs">
-          <Input for="Nome" text="Nome" />
-          <Input for="Email" text="Email" />
+      <section className="account-content">
+        <div className="create-account">
+          <h1> Crie sua conta</h1>
+          <div className="div-inputs">
+            <Input for="Nome" text="Nome" />
+            <Input for="Email" text="Email" />
+          </div>
+          <Button name="Iniciar Cadastro" />
         </div>
-        <Button name="Iniciar Cadastro" />
+        <div className="suport-account">
+          <img src={SuporteWoman} />
+          <p>Ajuda 24hrs do nosso suporte online</p>
+        </div>
       </section>
     </div>
   )

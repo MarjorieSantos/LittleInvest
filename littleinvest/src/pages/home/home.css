@@ -74,17 +74,14 @@
 
 .girl-background img {
     width: 100%;
+    display: block;
 }
 
-.citacao {
-    width: 50%;
-    margin-left: 60px;
-}
-
-.girl-background .citacao .text {
-    color: white;
-    font-size: 33px;
-    font-weight: bold;
+.account-content {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .create-account {
@@ -104,4 +101,10 @@
 
 .create-account .btn {
     padding: 10px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.suport-account {
+    margin: 0 auto;
 }
