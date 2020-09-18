@@ -1,6 +1,7 @@
 import React from 'react';
 import "./home.css"
 import Header from '../../components/header/header'
+import Footer from '../../components/footer/footer'
 import Button from '../../components/button/button'
 import Input from '../../components/input/input'
 import CardInvest from "../../components/card-invest/card-invest"
@@ -57,6 +58,8 @@ const Home = () => {
           <p>Ajuda 24hrs do nosso suporte online</p>
         </div>
       </section>
+
+      <Footer />
     </div>
   )
 }
