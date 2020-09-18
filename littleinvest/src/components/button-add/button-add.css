@@ -1,0 +1,22 @@
+.btn-add {
+  background: #4456DD;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.circle-more {
+  border-radius: 100%;
+  border: none;
+  height: 20px;
+  width: 20px;
+  background: white;
+  color: #4456DD;
+  font-weight: bold;
+}

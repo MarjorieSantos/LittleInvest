@@ -1,13 +1,13 @@
 import React from 'react';
-// import Button from '../button/button.js'
+import Button from '../button/button.js'
 import './header.css';
-// import Logo from "../../assets/svg/little-invest.svg"
+import Logo from "../../assets/svg/little-invest.svg"
 
 const Header = () => {
   return (
     <header className="header-full">
       <div>
-        {/* <img src={Logo} alt="logo" /> */}
+        <img src={Logo} alt="logo" />
       </div>
 
       <div>
@@ -17,8 +17,8 @@ const Header = () => {
             <li>Serviços</li>
             <li>Contato</li>
           </ul>
+          <Button name="Cadastre-se" />
         </nav>
-        {/* <Button /> */}
       </div>
     </header >
   )
