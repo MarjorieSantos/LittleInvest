@@ -1,6 +1,7 @@
 .more-cash {
     width: 360px;
     padding: 30px;
+    font-size: 20px;
 }
 
 .more-cash p:nth-child(1) {

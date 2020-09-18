@@ -3,7 +3,7 @@
     background: white;
     font-size: 20px;
     border-radius:  4px;
-    width: 260px;
+    width: 300px; 
 }
 
 .card-invest-div p {
@@ -12,13 +12,26 @@
 
 .card-invest-div p:first-child {
     color: black;
+    font-size: 20px;
 }
 
 .card-invest-div p:nth-child(2){
     color: #4456DD;
+    font-size: 20px;
+}
+
+.card-invest-div p:nth-child(2)::after {
+    content: "";
+    height: 2px;
+    display: block;
+    margin-top: 22px;
+    background: #808080;
+    width: 40px;
 }
 
 .card-invest-div p:nth-child(3){
     color: #808080;
     font-size: 16px;
+    margin-top: 22px;
+    margin-bottom: 15px;
 }

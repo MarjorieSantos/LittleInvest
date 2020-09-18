@@ -2,12 +2,14 @@ import React from 'react';
 import "./home.css"
 import Header from '../../components/header/header'
 import Button from '../../components/button/button'
+import Input from '../../components/input/input'
 import CardInvest from "../../components/card-invest/card-invest"
 import OptionRender from "../../components/option-rendiment/option-rend"
 import IntroduionImagem from "../../assets/svg/notre-dame.svg"
 import WindowPC from "../../assets/svg/monitor-window.svg"
-import LoadWindow from "../../assets/svg/monitor-loading-progress.svg"
-import CardWindow from "../../assets/svg/monitor-cash-credit-card.svg"
+import LoadWindow from "../../assets/svg/monitor-loading-progress.svg";
+import CardWindow from "../../assets/svg/monitor-cash-credit-card.svg";
+import GirlBackground from "../../assets/fotos/citacao.jpg";
 
 const Home = () => {
   return (
@@ -36,6 +38,23 @@ const Home = () => {
           <OptionRender desc="Retire o rendimento e gaste parte em viagens e compras" type="Resgate Simples" src={CardWindow} />
         </div>
         <Button name="Entre em contato" />
+      </section>
+      <section className="girl-background">
+        <img src={GirlBackground} />
+        {/* <div className="citacao">
+          <i className="text">“ Com o little invest eu pude ter
+          certeza que o meu dinheiro estava
+        rendendo sem ter que perder tempo do meu dia pensando onde investir.”</i>
+          <p className="text">Gabriela Marques</p>
+        </div> */}
+      </section>
+      <section className="create-account">
+        <h1> Crie sua conta</h1>
+        <div className="div-inputs">
+          <Input for="Nome" text="Nome" />
+          <Input for="Email" text="Email" />
+        </div>
+        <Button name="Iniciar Cadastro" />
       </section>
     </div>
   )
