@@ -1,3 +1,8 @@
+.color {
+    color: white;
+    outline: none;
+}
+
 .introdution {
     padding: 60px 160px 60px 50px;
 }

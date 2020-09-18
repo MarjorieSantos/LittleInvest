@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./home.css"
 import Header from '../../components/header/header'
 import Footer from '../../components/footer/footer'
@@ -21,7 +22,9 @@ const Home = () => {
         <div className="content-intro">
           <div className="invest-intro">
             <p>Planeje o seu futuro sem perder tempo no presente</p>
-            <Button name="Investir Agora" />
+            <Button>
+              <Link className="color" to='/cadastro'>Increver-se Agora</Link>
+            </Button>
           </div>
           <img src={IntroduionImagem} />
         </div>
