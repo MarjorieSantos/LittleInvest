@@ -40,3 +40,32 @@
     padding: 10px 10px;
     width: 100%;
 }
+
+.section-more {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.section-more img {
+    width: 300px;
+    height: 200px;
+}
+
+.easy-cash-section {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.easy-cash-section h1 { 
+    text-align: center;
+}
+
+.easy-cash-section .btn {
+    padding: 10px 30px;
+}

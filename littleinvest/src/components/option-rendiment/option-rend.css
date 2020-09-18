@@ -1,0 +1,12 @@
+.more-cash {
+    width: 360px;
+    padding: 30px;
+}
+
+.more-cash p:nth-child(1) {
+    color: black;
+}
+
+.more-cash p:nth-child(2) {
+    color: #828282;
+}
