@@ -12,15 +12,19 @@ const Cadastro = () => {
     <div>
       <Header />
       <TableAccount />
-      <form>
-        <Input type="number" for="Nome do cartão" text="Nome do cartão" />
-        <Input type="number" for="Número do cartão" text="Número do cartão" />
-        <Input type="number" for="Vencimento" text="Vencimento" />
-        <Input type="number" for="Código" text="Código" />
-      </form>
-      <Button >
-        <Link className="color" to='/cadastro3'>Realizar Pagamento</Link>
-      </Button>
+      <section className="form-account2">
+        <form className="form2">
+          <Input type="number" for="Nome do cartão" text="Nome do cartão" />
+          <Input type="number" for="Número do cartão" text="Número do cartão" />
+          <div className="form-validate">
+            <Input type="number" for="Vencimento" text="Vencimento" />
+            <Input type="number" for="Código" text="Código" />
+          </div>
+        </form>
+        <Button >
+          <Link className="color" to='/cadastro3'>Realizar Pagamento</Link>
+        </Button>
+      </section>
       <Footer />
     </div>
   )

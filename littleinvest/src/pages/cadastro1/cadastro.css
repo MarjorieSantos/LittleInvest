@@ -1,0 +1,23 @@
+.form-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 90px 0px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-form {
+    margin-right: 20px;
+}
+
+.form-account .btn {
+    margin-top:  75px;
+    padding: 10px 20px;
+}

@@ -12,17 +12,23 @@ const Cadastro = () => {
     <div>
       <Header />
       <TableAccount />
-      <form>
-        <Input type="text" for="Nome" text="Nome" />
-        <Input type="text" for="CPF" text="CPF" />
-        <Input type="text" for="E-mail" text="E-mail" />
-        <Input type="text" for="Endereço" text="Endereço" />
-        <Input type="text" for="Estado" text="Estado" />
-        <Input type="text" for="CEP" text="CEP" />
-      </form>
-      <Button>
-        <Link className="color" to='/cadastro2'>Próxima Etapa </Link>
-      </Button>
+      <section className="form-account">
+        <form className="form">
+          <div className="space-form">
+            <Input type="text" for="Nome" text="Nome" />
+            <Input type="text" for="CPF" text="CPF" />
+            <Input type="text" for="E-mail" text="E-mail" />
+          </div>
+          <div>
+            <Input type="text" for="Endereço" text="Endereço" />
+            <Input type="text" for="Estado" text="Estado" />
+            <Input type="text" for="CEP" text="CEP" />
+          </div>
+        </form>
+        <Button>
+          <Link className="color" to='/cadastro2'>Próxima Etapa </Link>
+        </Button>
+      </section>
       <Footer />
     </div>
   )
