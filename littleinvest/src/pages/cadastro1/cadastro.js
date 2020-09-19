@@ -1,6 +1,7 @@
 import React from "react"
 import "./cadastro.css"
 import Header from '../../components/header/header'
+import { Link } from 'react-router-dom';
 import Input from '../../components/input/input'
 import Button from '../../components/button/button'
 import TableAccount from '../../components//your-account/your-account'
@@ -12,14 +13,16 @@ const Cadastro = () => {
       <Header />
       <TableAccount />
       <form>
-        <Input type="text" for="" text="Nome" />
-        <Input type="text" for="" text="CPF" />
-        <Input type="text" for="" text="E-mail" />
-        <Input type="text" for="" text="Endereço" />
-        <Input type="text" for="" text="Estado" />
-        <Input type="text" for="" text="CEP" />
+        <Input type="text" for="Nome" text="Nome" />
+        <Input type="text" for="CPF" text="CPF" />
+        <Input type="text" for="E-mail" text="E-mail" />
+        <Input type="text" for="Endereço" text="Endereço" />
+        <Input type="text" for="Estado" text="Estado" />
+        <Input type="text" for="CEP" text="CEP" />
       </form>
-      <Button name="Próxima Etapa >" />
+      <Button>
+        <Link className="color" to='/cadastro2'>Próxima Etapa </Link>
+      </Button>
       <Footer />
     </div>
   )
