@@ -54,7 +54,9 @@ const Home = () => {
             <Input for="Nome" text="Nome" />
             <Input for="Email" text="Email" />
           </div>
-          <Button name="Iniciar Cadastro" />
+          <Button>
+            <Link className="color" to='/cadastro'>Iniciar Cadastro</Link>
+          </Button>
         </div>
         <div className="suport-account">
           <img src={SuporteWoman} />
