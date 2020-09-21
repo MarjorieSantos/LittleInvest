@@ -4,7 +4,8 @@ import Header from '../../components/header/header'
 import { Link } from 'react-router-dom';
 import Input from '../../components/input/input'
 import Button from '../../components/button/button'
-import TableAccount from '../../components//your-account/your-account'
+import TableAccount from '../../components/your-account/your-account'
+import Phases from '../../components/phases/phases'
 import Footer from '../../components/footer/footer'
 
 const Cadastro = () => {
@@ -12,6 +13,7 @@ const Cadastro = () => {
     <div>
       <Header />
       <TableAccount />
+      <Phases />
       <section className="form-account">
         <form className="form">
           <div className="space-form">
