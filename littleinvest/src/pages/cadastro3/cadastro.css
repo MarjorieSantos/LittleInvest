@@ -4,3 +4,8 @@
     align-items: center;
     flex-direction: column;
 }
+
+.cadastro3 img {
+    width: 400px;
+    height: 250px;
+}
