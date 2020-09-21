@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Input from '../../components/input/input'
 import Button from '../../components/button/button'
 import TableAccount from '../../components//your-account/your-account'
+import Phases from '../../components/phases/phases'
 import Footer from '../../components/footer/footer'
 
 const Cadastro = () => {
@@ -12,6 +13,7 @@ const Cadastro = () => {
     <div>
       <Header />
       <TableAccount />
+      <Phases />
       <section className="form-account2">
         <form className="form2">
           <Input type="number" for="Nome do cartão" text="Nome do cartão" />
