@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="header-full">
       <div>
-        <img src={Logo} alt="logo" />
+        <Link className="color" to='/'><img src={Logo} alt="logo" /></Link>
       </div>
 
       <div>
